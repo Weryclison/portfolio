@@ -1,0 +1,41 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+}
+.sobre-conteudo h2 {
+  margin-bottom: 40px;
+}
+.sobre-conteudo p {
+  margin-bottom: 24px;
+}
+.sobre-conteudo p:last-child {
+  margin-bottom: 100px;
+}
+.sobre-redes h2 {
+  margin-bottom: 40px;
+}
+.sobre-redes li a {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+}
+.sobre-redes li a img {
+  max-width: 20px;
+}
+.sobre-redes li:last-child {
+  margin-bottom: 80px;
+}
+@media (max-width: 750px) {
+  .sobre {
+    grid-template-columns: 1fr;
+  }
+  .sobre-conteudo p:last-child {
+    margin-bottom: 50px;
+  }
+  .sobre-redes li:last-child {
+    margin-bottom: 40px;
+  }
+  .sobre-redes .botao {
+    margin-bottom: 40px;
+  }
+}

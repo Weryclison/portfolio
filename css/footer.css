@@ -1,0 +1,37 @@
+.footer {
+  display: grid;
+  place-items: center;
+}
+.footer-bg {
+  background-color: var(--cor-1);
+}
+.footer h1 {
+  padding-top: 100px;
+  margin-bottom: 70px;
+}
+.footer p {
+  margin-bottom: 70px;
+}
+.footer .botao {
+  margin-bottom: 120px;
+}
+footer .rodape {
+  background-color: black;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 750px) {
+  .footer h1 {
+    padding-top: 40px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .footer p {
+    margin-bottom: 30px;
+  }
+  .footer .botao {
+    margin-bottom: 60px;
+  }
+}

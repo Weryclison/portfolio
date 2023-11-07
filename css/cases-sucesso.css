@@ -1,0 +1,31 @@
+.cases-bg {
+  background-color: var(--cor-2);
+}
+.cases-sucesso h2 {
+  padding-top: 100px;
+  margin-bottom: 40px;
+}
+.cases-sucesso .cases-imagens {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+.cases-sucesso .cases-imagens img {
+  border: 1px solid rgba(0, 0, 0, 0.048);
+  border-radius: 4px;
+}
+.cases-imagens {
+  padding-bottom: 100px;
+  margin-bottom: 100px;
+}
+
+@media (max-width: 750px) {
+  .cases-sucesso h2 {
+    padding-top: 40px;
+    margin-bottom: 20px;
+  }
+  .cases-imagens {
+    padding-bottom: 40px;
+    margin-bottom: 40px;
+  }
+}

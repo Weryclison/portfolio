@@ -1,0 +1,62 @@
+.menu {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 40px;
+  margin-bottom: 120px;
+}
+.menu-uteis {
+  display: flex;
+  gap: 80px;
+}
+
+.intro {
+  display: grid;
+  place-items: center;
+}
+.intro h1 {
+  margin-bottom: 70px;
+}
+.intro p {
+  margin-bottom: 50px;
+}
+.intro .botao {
+  place-self: center;
+  margin-bottom: 200px;
+}
+@media (max-width: 750px) {
+  .menu {
+    margin-bottom: 60px;
+  }
+  .menu-logo {
+    max-width: 100px;
+
+    padding: 0;
+  }
+  .menu-uteis {
+    display: flex;
+    gap: 30px;
+    margin-left: 20px;
+  }
+  .menu .botao {
+    display: none;
+  }
+  .intro h1 {
+    margin-bottom: 30px;
+  }
+  .intro p {
+    margin-bottom: 24px;
+  }
+  .intro .botao {
+    margin-bottom: 40px;
+  }
+}
+@media (max-width: 308px) {
+  .menu {
+    justify-content: center;
+  }
+  .menu-logo {
+    margin-bottom: 20px;
+  }
+}
