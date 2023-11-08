@@ -1,4 +1,4 @@
-.sobre {
+.area .sobre {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: 40px;
