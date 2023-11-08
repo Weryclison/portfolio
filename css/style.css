@@ -1,8 +1,19 @@
 @import url(./global.css);
 @import url(./reutilizaveis.css);
 @import url(./tipografiaecor.css);
-@import url(./header.css);
-@import url(./sobre.css);
-@import url(./cases-sucesso.css);
-@import url(./diferenciais.css);
-@import url(./footer.css);
+
+@import url(././home/header.css);
+@import url(././home/sobre.css);
+@import url(././home/cases-sucesso.css);
+@import url(././home/diferenciais.css);
+@import url(././home/footer.css);
+/*  */
+/*  */
+/*  */
+/*  */
+/*  */
+
+@import url(./area-dev/header.css);
+@import url(./area-dev/sobre.css);
+@import url(././area-dev/footer.css);
+@import url(././area-dev/projetos.css);

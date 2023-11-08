@@ -19,6 +19,9 @@
   display: inline-block;
   box-sizing: border-box;
 }
+.area .botao {
+  border: 2px solid var(--cor-1);
+}
 @media (max-width: 750px) {
   .botao {
     padding: 8px 16px;

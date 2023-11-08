@@ -6,14 +6,10 @@
   margin-top: 40px;
   margin-bottom: 120px;
 }
-.menu-uteis {
-  display: flex;
-  gap: 80px;
-}
 
-.intro {
+.area .intro {
   display: grid;
-  place-items: center;
+  place-items: start;
 }
 .intro h1 {
   margin-bottom: 70px;
@@ -21,8 +17,8 @@
 .intro p {
   margin-bottom: 50px;
 }
-.intro .botao {
-  place-self: center;
+.area .intro .botao {
+  place-self: start;
   margin-bottom: 200px;
 }
 @media (max-width: 750px) {
@@ -48,8 +44,8 @@
   .intro p {
     margin-bottom: 24px;
   }
-  .intro .botao {
-    margin-bottom: 40px;
+  .area .intro .botao {
+    margin-bottom: 80px;
   }
 }
 @media (max-width: 308px) {

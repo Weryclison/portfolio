@@ -1,0 +1,26 @@
+.sobre {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+}
+
+.area .sobre-redes .botao {
+  display: none;
+}
+.area .sobre-redes li:last-child {
+  margin-bottom: 100px;
+}
+.sobre-redes li {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 24px;
+  align-items: center;
+}
+@media (max-width: 750px) {
+  .area .sobre {
+    grid-template-columns: 1fr;
+  }
+  .area .sobre-redes li:last-child {
+    margin-bottom: 50px;
+  }
+}
