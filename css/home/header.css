@@ -24,7 +24,18 @@
 }
 .intro .botao {
   place-self: center;
-  margin-bottom: 200px;
+  margin-bottom: 120px;
+}
+.botao2 {
+  background-color: #25d366;
+}
+.botao2:hover {
+  background-color: #33dd71;
+}
+.grupo-botoes {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
 }
 @media (max-width: 750px) {
   .menu {

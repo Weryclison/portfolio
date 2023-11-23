@@ -21,6 +21,14 @@
 .item2 {
   text-align: right;
 }
+.links a {
+  border-bottom: 1px solid;
+  transition: transform 0.3s;
+}
+.links a:hover {
+  color: var(--cor-0);
+  transform: translateY(-10px);
+}
 .projetos-conteudo .links {
   color: aliceblue;
   display: flex;
